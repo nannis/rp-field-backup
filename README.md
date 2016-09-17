@@ -22,10 +22,10 @@ Installation instructions
  This script requires a bit more hands on intstallation than the regular project. Instead of running as a cronjob, the script should be configured to run automatically when logging in with the username pi (i.e. the default account.)
 
 In order to get any meaningful output on the screen after boot up, it should be set to autologin and not to start up the full gui. To do this:
-* Open a terminal and type "sudo raspi-config" and press enter
-* Step down to option 3 (Boot Options) in the list and press enter
-* Step down to option B2 (Text console, automatically logged in as 'pi' user) and press enter
-* Step down to "OK" and press enter. You're now done setting up the automatic logon without full gui.
+1. Open a terminal and type "sudo raspi-config" and press enter
+2. Step down to option 3 (Boot Options) in the list and press enter
+3. Step down to option B2 (Text console, automatically logged in as 'pi' user) and press enter
+4. Step down to "OK" and press enter. You're now done setting up the automatic logon without full gui.
 
 Before the next step, it is highly recommended to create another user who can run sudo before doing this. Information on how to do that can be found here: https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart.
 
