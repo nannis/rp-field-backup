@@ -31,6 +31,7 @@ In order to get any meaningful output on the screen after boot up, it should be 
 Time to get the project on the Pi:
 * Make sure the Raspberry Pi has internet access.
 * Start by installing git on the Raspberry Pi. Type "sudo apt-get install git-core" in a terminal window and press enter. Wait for the process to finish.
+
 //Now we're back on track again.
 
 Before the next step, it is highly recommended to create another user who can run sudo before doing this. Information on how to do that can be found here: https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart.
