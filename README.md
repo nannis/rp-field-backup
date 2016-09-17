@@ -17,6 +17,8 @@ In order to get any meaningful output on the screen after boot up, it should be 
 * Step down to option B2 (Text console, automatically logged in as 'pi' user) and press enter
 * Step down to "OK" and press enter. You're now done setting up the automatic logon without full gui.
 
+Before the next step, it is highly recommended to create another user who can run sudo before doing this. Information on how to do that can be found here: https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart.
+
 To start up the script at login of user 'pi' (i.e. automatically if the steps above has been followed), do the following:
 * Type "sudo nano .bashrc" in the terminal and press enter.
 * Step down to the very end of the file.
@@ -25,4 +27,4 @@ To start up the script at login of user 'pi' (i.e. automatically if the steps ab
 * Type Y and press Enter when asked to save the changes.
 * Press enter again to confirm the file name.
 * The script will now run at the next reboot.
-It is highly recommended to create another user who can run sudo before doing this. Information on how to do that can be found here: https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
+
