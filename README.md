@@ -6,6 +6,16 @@ Functionality added are:
 * The sync won't start until the button on pin #17 is pressed
 * The unit is shut down when the buton on pin #27 is pressed (this comes with the display actually...)
 
+Hardware needed
+----------------
+* Raspberry Pi 3 B+
+* >=8GB Micro-SD card (To run the OS on the raspberry)
+* PITFT Mini Kit 2.2'' Display from Adafruit (install required packages before installing the backup script!)
+* Some kind of casing, e.g raspberry pi official case
+* Some kind of USB storage
+* SD card reader (USB)
+* SD card
+
 
 Installation instructions
 --------------------------
